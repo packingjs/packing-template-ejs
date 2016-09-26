@@ -1,0 +1,30 @@
+{
+  "name": "packing-template-ejs",
+  "version": "1.0.0",
+  "description": "ejs template middleware for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongzhi107/packing-template-ejs.git"
+  },
+  "keywords": [
+    "ejs",
+    "template",
+    "express",
+    "middleware"
+  ],
+  "author": "zhongzhi <zhong.zhi@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhongzhi107/packing-template-ejs/issues"
+  },
+  "homepage": "https://github.com/zhongzhi107/packing-template-ejs#readme",
+  "dependencies": {
+    "clear-require": "^1.0.1",
+    "ejs": "^2.5.2",
+    "object-assign": "^4.1.0"
+  }
+}
