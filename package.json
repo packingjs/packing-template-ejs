@@ -1,6 +1,6 @@
 {
   "name": "packing-template-ejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ejs template middleware for express",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
   "dependencies": {
     "clear-require": "^1.0.1",
     "ejs": "^2.5.2",
-    "object-assign": "^4.1.0"
+    "object-assign-deep": "0.0.4"
   }
 }
