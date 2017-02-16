@@ -1,6 +1,6 @@
 {
   "name": "packing-template-ejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ejs template middleware for express",
   "main": "index.js",
   "scripts": {
