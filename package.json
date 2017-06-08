@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhongzhi107/packing-template-ejs.git"
+    "url": "git+https://github.com/packingjs/packing-template-ejs.git"
   },
   "keywords": [
     "ejs",
@@ -19,9 +19,9 @@
   "author": "zhongzhi <zhong.zhi@163.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhongzhi107/packing-template-ejs/issues"
+    "url": "https://github.com/packingjs/packing-template-ejs/issues"
   },
-  "homepage": "https://github.com/zhongzhi107/packing-template-ejs#readme",
+  "homepage": "https://github.com/packingjs/packing-template-ejs#readme",
   "dependencies": {
     "clear-require": "^1.0.1",
     "ejs": "^2.5.2",
