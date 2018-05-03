@@ -15,8 +15,16 @@ module.exports = function(options) {
 
   return async (req, res, next) => {
     const { templatePath, pageDataPath, globalDataPath } = getPath(req, options);
-    if (existsSync(templatePath)) {
-      const context = await getContext(req, res, pageDataPath, globalDataPath);
+    const context = await getContext(req, res, pageDataPath, globalDataPath);
+    const { template, filename, basedir } = res;
+    if (template) {
+      try {
+        res.end(ejs.render(template, context));
+      } catch (e) {
+        console.log(e);
+        next();
+      }
+    } else if (existsSync(templatePath)) {
       try {
         const tpl = readFileSync(templatePath, { encoding: options.encoding });
         const output = ejs.render(tpl, context);
